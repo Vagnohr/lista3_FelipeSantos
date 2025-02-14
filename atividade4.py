@@ -6,7 +6,7 @@ if "f" or "F" in sexo:
         print("Você sera aceita para servir")
     else:
         print("Você não sera aceita para servir")
-if "m" or "M" in sexo:
+elif "m" or "M" in sexo:
     if idade >=18 and idade <=39:
         print("Você sera aceita para servir")
     else:
