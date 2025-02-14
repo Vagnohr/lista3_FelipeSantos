@@ -1,7 +1,7 @@
 nome = input("Insira o nome do lutador: ")
-peso = input("Insira o peso do lutador: ")
+peso = int(input("Insira o peso do lutador: "))
 if peso < 52:
-    print("O seu lutador está na categoria invalido")
+    print("O seu lutador é invalido para lutar")
 elif peso >=52 and peso <65:
     print("O seu lutador está na categoria pena")
 elif peso >=65 and peso <72:
